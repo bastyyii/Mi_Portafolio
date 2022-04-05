@@ -11,3 +11,350 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #191c32;
+  color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.brand span{
+  color: aqua;
+}
+.brand h2{
+  margin-top: 0px;
+}
+.menu{
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a{
+  color:  white;
+  text-decoration: none;
+}
+.menu li{
+  width: 130px;
+  height: 28px;
+  text-align: center;
+}
+
+.menu li:hover{
+  background-color: #16182b;
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+.info-content h1{
+  font-size: 3em;
+}
+.info-content span{
+  color: aqua;
+}
+.info-content p{
+  width: 530px;
+}
+.download-cv{
+  padding: 10px 20px;
+  background-color: rgb(5, 212, 212);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+.download-cv:hover{
+  background-color: white;
+  box-shadow: none;
+}
+
+.main img{
+  width: 350px;
+  border: 7px solid #00ffff;
+  height: 520px;
+}
+.about{
+  display: grid;
+  background-color: white;
+  color: black;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100%;
+  align-items: center;
+}
+.about img{
+  width: 100%;
+  height: 700px;
+  grid-column: 1/5;
+}
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+.divider{
+  height: 4px;
+  width: 70%;
+  background-color: #575c5c;
+  margin-bottom: 2.5rem;
+}
+
+.about p{
+  margin-bottom: 1em;
+}
+
+.download-read{
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download-read:hover{
+  background-color: #44496e;
+  transition: ease-in .5s;
+  box-shadow: none;
+}
+
+.tools-title{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.tools-title h2{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.carousel{
+  height: 41vh;
+  text-align: center;
+}
+
+
+.carousel-item{
+  margin: 0 auto;
+}
+
+.tools-secondary-title{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.tools-secondary-title h2{
+  text-align: center;
+  font-size: 2em;
+} 
+
+.element-tool{
+  width: 160px;
+  height: 180px;
+}
+.element-tool2{
+  width: 170px;
+  height: 150px;
+}
+.element-tool3{
+  width: 130px;
+  height: 130px;
+}
+
+.element-tool-secondary{
+  width: 90px;
+  height: 108px;
+}
+.element-tool-secondary2{
+  width: 100px;
+  height: 100px;
+}
+
+.port-headings{
+  width: 100%;
+  padding-top: 5em;
+  padding-left: 5em;
+}
+.wit{
+  width: 405px;
+}
+.port-headings h2{
+  font-size: 2.5em;
+}
+
+.port .contt{
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardd{
+  width: 300px;
+  color: white;
+  background-color: cadetblue;
+  margin: 1em;
+}
+.card-img{
+  width: 100%;
+  height: 150px;
+  background-image: url(./img/port//comida.png);
+  background-size: cover;
+}
+.card-title{
+  padding: 20px;
+}
+.card-title h2{
+  font-size: 25px;
+}
+.port{
+  width: 100%;
+  background-color: #232746;
+  color: white;
+}
+.port-links{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.port-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.port-links i{
+  font-size: 1.5em;
+}
+.port-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
+}
+.port-details {
+  margin: 1em;
+  width: 70%;
+}
+.port-details a{
+  text-decoration: none;
+  color: #191c32;
+  text-transform: uppercase;
+}
+
+.container-contact{
+  padding-left: 3em;
+  margin: 0 auto;
+  display: flex;
+}
+
+.contact-form{
+  margin-left: 10%;
+  padding-top: 2em;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+.form input{
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.form textarea{
+  height: 150px;
+  background: none;
+  color: white;
+  padding: 1.5em;
+  border: 1px solid white;
+}
+
+.btn-submit{
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-submit:hover{
+  background-color: white;
+}
+
+.contact-heding{
+  width: 30%;
+  padding-top: 1em;
+  padding-left: 3em;
+}
+.contact-heding h2{
+  font-size: 3em;
+}
+
+.container-contact img{
+  opacity: 10%;
+  width: 600px;
+  height: 550px;
+  bottom: 0px;
+}
+
+.footer{
+  background-color: #191c32;
+  height: 300px;
+}
+.footer-content h5{
+  padding: 3em;
+}
+.social-network{
+  text-align: center;
+}
+.section-contact{
+  column-count: 3; 
+  columns: 20%; 
+  margin-left: 10%; 
+  margin-right: 10%;
+}
+.section-div{
+  margin: 0 auto;
+}
+.section-div img{
+  width: 80px; 
+  height: 80px; 
+  margin-top: 15px;
+}
+.section-div .imgmail{
+  width: 100px; 
+  height: 65px;
+  margin-top: 20px; 
+}
+
+.end{
+  text-align: center;
+  padding-top: 1em;
+}
