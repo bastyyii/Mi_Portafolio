@@ -20,7 +20,6 @@ function App() {
       <AllTools/>
       <AllTollsSecondary/>
       <Port/>
-      <Contact/>
       <footer className='footer'>
         <Footer/>
       </footer>

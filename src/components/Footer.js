@@ -13,13 +13,19 @@ const Footer = () => {
             <div className='social-network'>
                 <section className='section-contact'>
                     <div className='section-div'>
-                        <img  className='imgit' src={git}></img>
+                        <a href='https://github.com/bastyyii'>
+                            <img  className='imgit' src={git}></img>
+                        </a>
                     </div>
                     <div className='section-div'>
+                        <a href='mailto:bastivaldi15@gmail.com'>
                         <img className='imgmail' src={gmail}></img>
+                        </a>
                     </div>
                     <div className='section-div'>
-                        <img className='imgmail' src={lin}></img>
+                        <a href='https://cl.linkedin.com/in/bastian-valdivia-b61b75236?trk=people-guest_people_search-card'>
+                            <img className='imgmail' src={lin}></img>
+                        </a>
                     </div>
                 </section>
             </div>

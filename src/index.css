@@ -21,7 +21,21 @@ code {
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: transparent;
+  background-color: transparent
+}
+
+.checkbtn{
+  position: relative;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+.checkbtn img{
+  width: 40px;
+  height: 40px;
+}
+#check{
+  display: none;
 }
 
 .brand span{
@@ -456,6 +470,9 @@ code {
 }
 
 @media(max-width:960px){
+  .menu li a{
+    font-size: 14px;
+  }
   .main{
     height: 500px;
   }
@@ -609,6 +626,21 @@ code {
   }
 }
 @media(max-width: 700px){
+  .menu li a{
+    font-size: 12px;
+  }
+  .checkbtn{
+    display: block;
+    margin-right: -400px;
+  }
+  .menu{
+    display: block;
+    width: 50px;
+    margin-right: -100px;
+  }
+  #check:checked ~ul{
+    margin-right: 100px;
+  }
   .main img{
     visibility: hidden;
     width: 0;
@@ -711,6 +743,9 @@ code {
   }
 }
 @media(max-width: 570px){
+  .checkbtn{
+    margin-right: -300px;
+  }
   .info-content{
     margin-left: 0%;
     padding-right: 1em;
@@ -762,8 +797,32 @@ code {
   .end{
     padding-top: 2em;
   }
+  .section-div .imgmail{
+    width: 40px; 
+    height: 25px;
+  }
+  .section-div .imgit{
+    width: 40px; 
+    height: 40px;
+  }
 }
+
+@media(max-width: 470px){
+  .checkbtn{
+    margin-right: -200px;
+  }
+}
+
+@media(max-width: 350px){
+  .checkbtn{
+    margin-right: -150px;
+  }
+}
+
 @media(max-width: 330px){
+  .checkbtn{
+    margin-right: -100px;
+  }
   .info-content p{
     width: 270px;
   }
