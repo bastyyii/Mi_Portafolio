@@ -631,15 +631,18 @@ code {
   }
   .checkbtn{
     display: block;
-    margin-right: -400px;
   }
   .menu{
     display: block;
-    width: 50px;
-    margin-right: -100px;
+    width: 40px;
+    visibility: hidden;
+    margin-right: 70px;
+  }
+  .menu li{
+    width: 70px;
   }
   #check:checked ~ul{
-    margin-right: 100px;
+    visibility: visible;
   }
   .main img{
     visibility: hidden;
