@@ -17,18 +17,18 @@ const Port = () => {
             <div className='contt'>
                 <div className='cardd'>
                     <div className='card-img'>
-                        <img className='card-img' alt='Imagen api clima' src={clima}/>
+                        <img className='card-img' alt='Imagen api criptomonedas' src={cripto}/>
                     </div>
                     <div className='card-title'>
-                        <h2>Api Clima</h2>
+                        <h2>criptomonedas</h2>
                     </div>
                     <div className='port-links'>
-                        <a href='https://resonant-crostata-716950.netlify.app/'>
+                        <a href='https://github.com/bastyyii/Api-valor-criptomonedas'>
                             <img className='icons-git' alt='imagen icono de git' src={git} />
                             <br></br>
                             Codigo
                         </a>
-                        <a href='https://resonant-crostata-716950.netlify.app/'>
+                        <a href='https://mellifluous-pithivier-1b7fae.netlify.app/'>
                             <img className='icons-git' alt='imagen icono de proyecto' src={pro}/>
                             <br></br>
                             Link
@@ -96,28 +96,6 @@ const Port = () => {
                             Codigo
                         </a>
                         <a href='https://dapper-melba-01df62.netlify.app/'>
-                            <img className='icons-git' alt='imagen icono de proyecto' src={pro}/>
-                            <br></br>
-                            Link
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div className='contt'>
-                <div className='cardd'>
-                    <div className='card-img'>
-                        <img className='card-img' alt='Imagen api criptomonedas' src={cripto}/>
-                    </div>
-                    <div className='card-title'>
-                        <h2>criptomonedas</h2>
-                    </div>
-                    <div className='port-links'>
-                        <a href='https://github.com/bastyyii/Api-valor-criptomonedas'>
-                            <img className='icons-git' alt='imagen icono de git' src={git} />
-                            <br></br>
-                            Codigo
-                        </a>
-                        <a href='https://mellifluous-pithivier-1b7fae.netlify.app/'>
                             <img className='icons-git' alt='imagen icono de proyecto' src={pro}/>
                             <br></br>
                             Link
