@@ -1,5 +1,4 @@
 import React from 'react';
-import Carrucel from '@brainhubeu/react-carousel';
 
 import css from '../img/tools/css.png'
 import html from '../img/tools/html.png'

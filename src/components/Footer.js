@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='social-network'>
                 <section className='section-contact'>
                     <div className='section-div'>
-                        <img src={git}></img>
+                        <img  className='imgit' src={git}></img>
                     </div>
                     <div className='section-div'>
                         <img className='imgmail' src={gmail}></img>

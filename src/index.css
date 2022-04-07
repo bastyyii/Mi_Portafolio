@@ -56,20 +56,24 @@ code {
 
 .main{
   margin: 0 auto;
-  width: 80vw;
-  height: 90vh;
+  width: 100%;
+  height: 800px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
 }
-.info-content h1{
-  font-size: 3em;
+.info-content{
+  padding: 6em;
+}
+.info-content h2{
+  font-size: 2.5em;
 }
 .info-content span{
   color: aqua;
 }
 .info-content p{
   width: 530px;
+  margin-right: 10px;
 }
 .download-cv{
   padding: 10px 20px;
@@ -86,9 +90,9 @@ code {
 }
 
 .main img{
-  width: 350px;
+  width: 550px;
   border: 7px solid #00ffff;
-  height: 520px;
+  height: 500px;
 }
 .about{
   display: grid;
@@ -98,13 +102,9 @@ code {
   width: 100%;
   align-items: center;
 }
-.about img{
-  width: 100%;
-  height: 700px;
-  grid-column: 1/5;
-}
+
 .about-info{
-  grid-column: 5/10;
+  grid-column: 4/10;
   padding: 3em;
 }
 .about-info h2{
@@ -113,7 +113,7 @@ code {
 }
 .divider{
   height: 4px;
-  width: 70%;
+  width: 100%;
   background-color: #575c5c;
   margin-bottom: 2.5rem;
 }
@@ -149,7 +149,7 @@ code {
 }
 
 .carousel{
-  height: 41vh;
+  height: 330px;
   text-align: center;
 }
 
@@ -192,11 +192,11 @@ code {
 
 .port-headings{
   width: 100%;
-  padding-top: 5em;
-  padding-left: 5em;
+  padding-top: 2em;
+  padding-left: 2em;
 }
 .wit{
-  width: 405px;
+  width: 450px;
 }
 .port-headings h2{
   font-size: 2.5em;
@@ -204,7 +204,7 @@ code {
 
 .port .contt{
   width: 80%;
-  height: 80vh;
+  height: 365px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -219,11 +219,12 @@ code {
 .card-img{
   width: 100%;
   height: 150px;
-  background-image: url(./img/port//comida.png);
   background-size: cover;
 }
 .card-title{
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 .card-title h2{
   font-size: 25px;
@@ -246,20 +247,9 @@ code {
 .port-links i{
   font-size: 1.5em;
 }
-.port-button{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 1em;
-}
-.port-details {
-  margin: 1em;
-  width: 70%;
-}
-.port-details a{
-  text-decoration: none;
-  color: #191c32;
-  text-transform: uppercase;
+.icons-git{
+  width: 30px;
+  height: 30px;
 }
 
 .container-contact{
@@ -269,14 +259,14 @@ code {
 }
 
 .contact-form{
-  margin-left: 10%;
   padding-top: 2em;
+  margin: 0 auto;
 }
 
 .form{
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 700px;
   margin-top: 2em;
 }
 .form input{
@@ -314,7 +304,7 @@ code {
   padding-left: 3em;
 }
 .contact-heding h2{
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .container-contact img{
@@ -349,7 +339,7 @@ code {
   margin-top: 15px;
 }
 .section-div .imgmail{
-  width: 100px; 
+  width: 90px; 
   height: 65px;
   margin-top: 20px; 
 }
@@ -357,4 +347,424 @@ code {
 .end{
   text-align: center;
   padding-top: 1em;
+}
+
+@media(max-width: 1430px){
+  .info-content{
+    padding: 5em;
+  }
+}
+
+@media(max-width: 1220px){
+  .main{
+    height: 700px;
+  }
+  .menu{
+    width: 50%;
+  }
+  .info-content{
+    padding: 4em;
+  }
+  .info-content h2{
+    font-size: 2em;
+  }
+  .info-content p{
+    width: 450px;
+  }
+  .main img{
+    width: 450px;
+    height: 400px;
+  }
+  .card-title h2{
+    font-size: 20px;
+  }
+  .tools-title h2{
+    font-size: 2.3em;
+  }
+  .tools-secondary-title h2{
+    font-size: 1.8em;
+  } 
+  .about-info{
+    padding: 2.8em;
+  }
+  .form{
+    width: 400px;
+  }
+  .port-headings h2{
+    font-size: 2em;
+  }
+  .wit{
+    width: 340px;
+  }
+  .contact-heding h2{
+    font-size: 2em;
+  }
+  .divider{
+    width: 65%;
+    margin-bottom: 0.5rem;
+  }
+}
+@media(max-width:1050px){
+  .info-content{
+    padding-top: 2em;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .main{
+    height: 650px;
+  }
+  .about-info{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    margin-right: -100px;
+  }
+  .cardd{
+    width: 250px;
+  }
+  .tools-title h2{
+    font-size: 2em;
+  }
+  .tools-secondary-title h2{
+    font-size: 1.5em;
+  } 
+  .about-info{
+    padding: 2.6em;
+  }
+}
+
+@media(max-width:960px){
+  .about-info{
+    padding: 2.2em;
+  }
+  .info-content h2{
+    font-size: 1.8em;
+  }
+  .info-content p{
+    width: 380px;
+    font-size: 15px;
+  }
+  .menu{
+    width: 60%;
+  }
+  .main{
+    height: 500px;
+  }
+  .port-links a{
+    font-size: 12px;
+  }
+}
+
+@media(max-width:960px){
+  .main{
+    height: 500px;
+  }
+  .main img{
+    width: 400px;
+    height: 355.2px;
+  }
+  .form{
+    width: 300px;
+  }
+  .port-headings h2{
+    font-size: 2em;
+  }
+  .wit{
+    width: 360px;
+  }
+  .about-info p{
+    font-size: 15px;
+  }
+  .element-tool{
+    width: 100px;
+    height: 120px;
+  }
+  .element-tool2{
+    width: 110px;
+    height: 90px;
+  }
+  .element-tool3{
+    width: 100px;
+    height: 100px;
+  }
+  .element-tool-secondary{
+    width: 75px;
+    height: 98px;
+  }
+  .element-tool-secondary2{
+    width: 75px;
+    height: 75px;
+  }
+  .carousel{
+    height: 200px;
+  }
+  .port-headings{
+    width: 100%;
+    padding-top: 2em;
+    padding-left: 2em;
+  }
+  .port .contt{
+    width: 80%;
+    height: 300px;
+  }
+  .card-title h2{
+    font-size: 18px;
+  }
+  .tools-title h2{
+    font-size: 1.8em;
+  }
+  .tools-secondary-title h2{
+    font-size: 1.5em;
+  }
+  .about-info h2{
+    font-size: 1.7em;
+  }
+  .footer-content h5{
+    font-size: 18px;
+  }
+}
+@media(max-width:850px){
+  .about-info{
+    padding: 1.8em;
+  }
+  .menu{
+    width: 70%;
+  }
+
+  .about-info p{
+    font-size: 14px;
+  }
+  .cardd{
+    width: 220px;
+  }
+  .icons-git{
+    width: 25px;
+    height: 25px;
+  }
+  .card-img{
+    height: 130px;
+  }
+  .contact-heding h2{
+    font-size: 2em;
+  }
+  .main{
+    height: 415px;
+  }
+  .main img{
+    width: 300px;
+    height: 264px;
+  }
+  .info-content h2{
+    font-size: 1.5em;
+  }
+  .info-content p{
+    font-size: 14px;
+  }
+  .about-info{
+    margin-top: 0px;
+  }
+  .carousel{
+    height: 150px;
+  }
+  .const{
+    width: 100px;
+  }
+  
+  .about-info h2{
+    font-size: 1.4em;
+  }
+  .btn-submit{
+    padding: 5px 10px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .cont{
+    width: 180px;
+  }
+}
+
+@media(max-width: 750px){
+  .tools-title h2{
+    font-size: 1.7em;
+  }
+  .main img{
+    width: 250px;
+    height: 220px;
+  }
+  .info-content h2{
+    font-size: 1.2em;
+  }
+  .info-content p{
+    font-size: 13px;
+  }
+  .about-info p{
+    font-size: 12px;
+  }
+  .contact-form h4{
+    font-size: 20px;
+  }
+}
+@media(max-width: 700px){
+  .main img{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .main{
+    height: 280px;
+  }
+  .info-content{
+    margin-left: 30%;
+  }
+  .carousel{
+    height: 130px;
+  }
+  .element-tool2{
+    width: 80px;
+    height: 70px;
+  }
+  .element-tool{
+    width: 80px;
+    height: 90px;
+  }
+  .element-tool3{
+    width: 80px;
+    height: 80px;
+  }
+  .element-tool-secondary2{
+    width: 65px;
+    height: 65px;
+  }
+  .element-tool-secondary{
+    width: 65px;
+    height: 80px;
+  }
+  .carousel{
+    height: 110px;
+  }
+  .cardd{
+    width: 200px;
+  }
+  .card-img{
+    height: 110px;
+  }
+  .port .contt{
+    height: 280px;
+  }
+  .about-info{
+    padding: 1em;
+  }
+  .about-info{
+    grid-column: 1/10;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  .tools-title h2{
+    font-size: 1.5em;
+  }
+  .tools-secondary-title h2{
+    font-size: 1.3em;
+  }
+  .contact-heding h2{
+    font-size: 1.5em;
+  }
+  .cont{
+    width: 135px;
+  }
+  .section-div .imgmail{
+    width: 60px; 
+    height: 45px;
+  }
+  .section-div .imgit{
+    width: 60px; 
+    height: 60px;
+  }
+  .port-headings h2{
+    font-size: 1.5em;
+  }
+  .wit{
+    width: 255px;
+  }
+  .contact-form{
+    padding-top: 1em;
+  }
+  .form{
+    margin-top: 1em;
+  }
+  .form input{
+    padding: 5px 10px;
+    margin-bottom: 0.5em;
+  }
+  .form textarea{
+    height: 130px;
+    padding: 1em;
+  }
+  .footer-content h5{
+    padding: 1em;
+  }
+  .container-contact{
+    padding-left: 0em;
+  }
+}
+@media(max-width: 570px){
+  .info-content{
+    margin-left: 0%;
+    padding-right: 1em;
+    margin-right: 10px;
+  }
+  .info-content p{
+    font-size: 11px;
+    width: 350px;
+  }
+  .about-info p{
+    font-size: 10px;
+  }
+  .about-info{
+    grid-column: 0/10;
+    
+  }
+}
+@media(max-width: 570px){
+  .info-content p{
+    width: 290px;
+  }
+  .about-info p{
+    font-size: 10px;
+  }
+  .tools-title h2{
+    font-size: 1.2em;
+  }
+  .tools-secondary-title h2{
+    font-size: 1em;
+  }
+  .cardd{
+    width: 180px;
+  }
+  .port-links a{
+    font-size: 9px;
+  }
+  .card-title h2{
+    font-size: 13px;
+  } 
+  .form{
+    width: 250px;
+  }
+  .contact-form h4{
+    font-size: 16px;
+  }
+  .footer-content h5{
+    font-size: 15px;
+  }
+  .end{
+    padding-top: 2em;
+  }
+}
+@media(max-width: 330px){
+  .info-content p{
+    width: 270px;
+  }
 }

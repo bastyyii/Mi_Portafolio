@@ -1,16 +1,14 @@
 import React from 'react';
-import foto from '../img/fotos/foto.jpeg';
 
 const Contact = () => {
     return (  
         <div className='contact-section' id='Contact'>
             <div className='contact-heding'>
                 <h2>Contactame</h2>
-                <div className='divider'></div>
+                <div className='divider cont'></div>
             </div>
             
             <div className='container-contact'>
-                <img src={foto}></img>
                 <div className='contact-form'>
                     <h4>Enviame un mensaje</h4>
                     <form className='form'>
