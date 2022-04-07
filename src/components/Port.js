@@ -87,7 +87,7 @@ const Port = () => {
                         <img className='card-img' alt='Imagen api clima' src={bre}/>
                     </div>
                     <div className='card-title'>
-                        <h2>Api Clima</h2>
+                        <h2>Frases B.Bad</h2>
                     </div>
                     <div className='port-links'>
                         <a href='https://github.com/bastyyii/Api_Frases_Breaking_Bad'>
@@ -109,7 +109,7 @@ const Port = () => {
                         <img className='card-img' alt='Imagen api criptomonedas' src={cripto}/>
                     </div>
                     <div className='card-title'>
-                        <h2>Api Clima</h2>
+                        <h2>criptomonedas</h2>
                     </div>
                     <div className='port-links'>
                         <a href='https://github.com/bastyyii/Api-valor-criptomonedas'>
