@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <nav className='navbar'>
                 <div className='brand'>
-                    <h2>B<span>S</span></h2>
+                    <h2>B<span>V</span></h2>
                 </div>
                 <input type='checkbox' id='check'/>
                 <label htmlFor='check' className='checkbtn'>
