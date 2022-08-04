@@ -7,7 +7,7 @@ import lin from '../img/contacts/lin.png'
 const Footer = () => {
     return (  
         <Fragment>  
-            <div className='footer-content'>
+            <div className='footer-content' id='Contact'>
                 <h5>Bastian Valdiva Full Stack</h5>
             </div>
             <div className='social-network'>
