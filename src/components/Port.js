@@ -1,11 +1,11 @@
 import React from 'react';
 import git from '../img/icons/gitHub.png'
 import pro from '../img/icons/pro.png';
-import clima from '../img/port/clima.png';
 import restaurant from '../img/port/restaurant.png';
 import citas from '../img/port/citas.png';
 import bre from '../img/port/breaking.PNG';
 import cripto from '../img/port/cripto.png';
+import danza from '../img/port/danza.PNG'
 
 const Port = () => {
     return (  
@@ -97,6 +97,33 @@ const Port = () => {
                         </a>
                         <a href='https://dapper-melba-01df62.netlify.app/'>
                             <img className='icons-git' alt='imagen icono de proyecto' src={pro}/>
+                            <br></br>
+                            Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className='contt'>
+                <div className='cardd'>
+                    <div className='card-img'>
+                        <img className='card-img' alt='Imagen Danza con Muerte' src={danza}/>
+                    </div>
+                    <div className='card-title'>
+                        <h2>Danza con la Muerte</h2>
+                    </div>
+                    <div className='port-links'>
+                        <a href='https://github.com/bastyyii/Cliente-Danza_muerte'>
+                            <img className='icons-git' alt='imagen de icono de git' src={git} />
+                            <br></br>
+                            Front
+                        </a>
+                        <a href='https://github.com/bastyyii/Server-Danza_con_la_muerte'>
+                            <img className='icons-git' alt='imagen de icono de git' src={git} />
+                            <br></br>
+                            Back
+                        </a>
+                        <a href='https://cosmic-monstera-0a43c1.netlify.app/'>
+                            <img className='icons-git' alt='imagen de icono de proyecto' src={pro}/>
                             <br></br>
                             Link
                         </a>
